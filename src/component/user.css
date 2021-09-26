@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+/* .image{
+   
+    width:50vw;
+    height:50vh;
+} */
+
+.detail{
+    color:maroon;
+}
+
+.paginationBttns{
+    width: 50vw;
+    height: 10vh;
+    list-style: none;
+    margin-top: 2rem;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+}
+
+.paginationBttns a{
+    padding: .5rem;
+    margin: 1rem;
+    border: 1px solid indianred;
+    border-radius: .5rem;
+    color: indianred;
+    cursor: pointer;
+}
+
+.paginationBttns a:hover{
+    color: lavender;
+    background:indianred;
+}
+
+.paginationActive a{
+    color: lavender;
+    background:indianred;
+
+}
